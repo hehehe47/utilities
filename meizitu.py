@@ -92,4 +92,5 @@ for i in range(1, 3):
             imageFile.close()
         print(name + ' Finished!')
         os.chdir('..')
+os.chdir('../..')
 create_page(t)
