@@ -29,7 +29,7 @@ def encoding(context):
                 mark_index.append(chr(i))
     index_list = [lower_index, upper_index, number_index, mark_index]
     j = 0
-    name = 'hehehe47123'
+    name = 'yanghuichun'
     if len(name) > len(context):
         cycle = int(len(name) / len(context))
         added = len(name) % len(context)
