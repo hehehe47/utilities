@@ -90,11 +90,12 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="hehehe47 &lt;33493578+hehehe47@users.noreply.github.com&gt;" />
         <option value="hehehe47" />
       </list>
     </option>
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1TFq9RHREW5ZnxTrsfnmHjcz2EY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
