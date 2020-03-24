@@ -1,4 +1,3 @@
-import os
 import time
 
 t1 = time.time()
@@ -55,9 +54,9 @@ if Max_x > Max_y:
     swap_flag = 1
     Max_x, Max_y = swap(Max_x, Max_y)
 print(fill(x, y, Max_x, Max_y, z))
-if not os.path.exists('logs'):
-    os.mkdir('logs')
-file = open('logs/move_water.txt')
+# if not os.path.exists('logs'):
+# os.mkdir('logs')
+# file = open('logs/move_water.txt')
 for Max_x in range(1, 101):
     for Max_y in range(Max_x + 1, 101):
         for z in range(Max_x, Max_y + 1):
@@ -66,9 +65,9 @@ for Max_x in range(1, 101):
             if Max_x > Max_y:
                 swap_flag = 1
                 Max_x, Max_y = swap(Max_x, Max_y)
-            if not flag:
-                file.write(str(Max_x) + ' ' + str(Max_y) + ' ' + str(z) + '\n')
+            # if not flag:
+            # file.write(str(Max_x) + ' ' + str(Max_y) + ' ' + str(z) + '\n')
 
-file.close()
-time2 = time.time()
-print(time2 - t1)
+# file.close()
+# time2 = time.time()
+# print(time2 - t1)
